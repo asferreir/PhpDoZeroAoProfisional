@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+.texto {
+    width: 700px;
+    height: 600px;
+    background-color: gainsboro;
+    color: red;
+    font-size: 20px;
+    font-family: Helvetica, Verdana;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.shrink:checked {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+
+    width: 700px;
+    height: 600px;
+    background-color: gainsboro;
+}
